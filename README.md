@@ -1,55 +1,82 @@
-# React UI Component Library with Storybook
+**React UI Component Library with Storybook**
 
-# Author: Harish Kumar
+**Author: Harish Kumar**  
 
-# Assignment 12: Web Component Library
+**Assignment 13: UC Component Library**  
 
-# Overview
+## **Overview**
+This project is a **React-based UI Component Library** built with **Storybook** and **Dockerized for production**.  
+It includes **code quality checks** using **Husky, ESLint, Prettier, and Jest** to ensure that all code meets best practices.  
 
-This project is a React-based UI Component Library built with Storybook.It is Dockerized for production and can be accessed at http://localhost:8083.
+This assignment enhances the **previous Storybook UI Component Library** by adding:
+**Pre-commit hooks using Husky**  
+ **Linting & Formatting with ESLint & Prettier**  
+ **Automated Testing with Jest**  
+ **Dockerized Production Build**  
+ **CI/CD Pipeline with GitHub Actions**  
 
-# Features
+The project can be accessed at:  
+ **http://localhost:8018** (after running the Docker container)  
 
-Modular UI Components (Button, Label, Table, Dropdown, Radio Button, etc.)Storybook for Component TestingStyled-Components for Custom StylingResponsive & Fully InteractiveDockerized for Easy Deployment
+## **Installation & Setup**
+### **Prerequisites**
+Ensure you have the following installed:  
+- **Node.js (v16 or later)**  
+- **npm (v8 or later)**  
+- **Docker (latest version)**  
+- **Git**  
 
-# Installation & Setup
+## **📌 Clone the Repository**
+```sh
+git clone https://github.com/hkumar1999/kumar_harish_ui_garden_build_checks.git
+```
+Navigate into the project folder:
+```sh
+cd kumar_harish_ui_garden_build_checks
+```
 
-## Prerequisites
-
-Ensure you have the following installed:
-
-- Node.js (v16 or later)
-- npm (v8 or later)
-- Docker (latest version)
-
-# Clone the repository
-
-git clone https://github.com/your-username/component-library.git
-
-# Github link
-
-https://github.com/hkumar1999/kumar_harish_ui_garden
-
-# Go into the project directory
-
-cd component-library
-
-# Install dependencies
-
+## **Install Dependencies**
+```sh
 npm install
-
-# Start Storybook
-
+```
+## Run Storybook Locally**
+```sh
 npm run storybook
+```
+Storybook will start at:  
+**http://localhost:6006**  
 
-# Build the Docker image
+## **Husky Pre-commit Checks**
+Husky prevents code from being committed unless it passes **Lint, Formatting, and Tests**.  
+To test the pre-commit hook:  
+```sh
+git commit -m "Testing Husky Pre-commit"
+```
 
-docker build -t Kumar_Harish_coding_assignment12 .
+## **Build and Run the Docker Container**
+### **1️Build the Docker Image**
+```sh
+docker build -t kumar_harish_coding_assignment13 .
+```
 
-# Run the Docker container
+### **Run the Docker Container**
+```sh
+docker run -p 8018:6006 --name kumar_harish_coding_assignment13 kumar_harish_coding_assignment13
+```
 
-docker run -d -p 8083:6006 --name Kumar_Harish_coding_assignment12
+The application will be available at:  
+**http://localhost:8018**  
 
-# Open the application in the browser
+## **GitHub Actions Integration**
+This project includes **CI/CD automation** using **GitHub Actions**.  
+Every push to **GitHub** triggers:  
+**Linting** (`npm run lint`)  
+ **Formatting** (`npm run format`)  
+ **Tests** (`npm test`)  
 
-http://localhost:8083
+To check workflow status:  
+ Go to **GitHub Repository**  
+ Click **Actions Tab**  
+ Verify if CI/CD passes   
+
+
