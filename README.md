@@ -21,12 +21,12 @@ The project can be accessed at:
 ## **Installation & Setup**
 ### **Prerequisites**
 Ensure you have the following installed:  
-- **Node.js (v16 or later)**  
-- **npm (v8 or later)**  
-- **Docker (latest version)**  
-- **Git**  
+**Node.js (v16 or later)**  
+**npm (v8 or later)**  
+**Docker (latest version)**  
+**Git**  
 
-## **📌 Clone the Repository**
+## ** Clone the Repository**
 ```sh
 git clone https://github.com/hkumar1999/kumar_harish_ui_garden_build_checks.git
 ```
