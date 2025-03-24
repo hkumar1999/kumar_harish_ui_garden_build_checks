@@ -10,23 +10,23 @@ It includes **code quality checks** using **Husky, ESLint, Prettier, and Jest** 
 
 This assignment enhances the **previous Storybook UI Component Library** by adding:
 **Pre-commit hooks using Husky**  
- **Linting & Formatting with ESLint & Prettier**  
- **Automated Testing with Jest**  
- **Dockerized Production Build**  
- **CI/CD Pipeline with GitHub Actions**  
+**Linting & Formatting with ESLint & Prettier**  
+**Automated Testing with Jest**  
+**Dockerized Production Build**  
+**CI/CD Pipeline with GitHub Actions**  
 
 The project can be accessed at:  
- **http://localhost:8018** (after running the Docker container)  
+**http://localhost:8018** (after running the Docker container)  
 
 ## **Installation & Setup**
 ### **Prerequisites**
 Ensure you have the following installed:  
-- **Node.js (v16 or later)**  
-- **npm (v8 or later)**  
-- **Docker (latest version)**  
-- **Git**  
+**Node.js (v16 or later)**  
+**npm (v8 or later)**  
+**Docker (latest version)**  
+**Git**  
 
-## **📌 Clone the Repository**
+## **Clone the Repository**
 ```sh
 git clone https://github.com/hkumar1999/kumar_harish_ui_garden_build_checks.git
 ```
